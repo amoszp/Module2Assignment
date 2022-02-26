@@ -1,0 +1,126 @@
+*{box-sizing: border-box;}
+
+body{
+  font-family: sans-serif;
+  background-color: white;
+  overflow: hidden;
+}
+
+h1{
+text-align: center;
+
+
+
+}
+
+div {
+  width: 100%;
+  box-sizing: border-box;
+  padding-right: 7PX;
+  padding-left: 7px;
+  
+}
+
+
+div span{
+  box-sizing: border-box;
+  padding-right: 10PX;
+  padding-left: 10px;
+  margin: -8px;
+
+}
+
+.row{
+  
+  
+  height: 100%;
+  overflow: hidden;
+}
+
+.block{
+  background-color: lightgrey;
+  width: 31.33%;
+  height: 150px;
+  float: left;
+  margin: 1%;
+  border: 1px solid black;
+  }
+
+.breakfast{
+  border: 1px solid black;
+  font-size: 18px;
+  background-color: lightsteelblue;
+ padding: 0 5 0 5;
+}
+
+.maincourse{
+  
+  border: 1px solid black;
+  font-size: 18px;
+  background-color: lightsalmon;
+
+}
+.dessert{
+  border: 1px solid black;
+  font-size: 18px;
+  background-color: lightgoldenrodyellow;
+}
+
+
+
+
+/****************mov******************/
+
+
+  @media screen and (max-width: 767px){
+  
+    body{
+  background-color: white;
+  padding: 40px;
+    }
+
+
+.col-xs-12{
+  width: 98%;
+  background-color: lightgrey;
+  
+  
+    }
+}
+
+
+
+
+/**************tablet******************/
+  @media screen and (min-width: 768px) and (max-width: 991px){
+
+
+.col-md-6{  
+  width: 48%;
+}
+
+.col-md-6{
+  width: 48%;
+}
+
+.col-md-12{
+  width: 98%;
+  
+}
+
+span{
+  position: static;}
+
+}
+
+
+
+
+/**************browser**************/
+
+@media screen and (min-width: 992px){
+   
+.col-lg-4{
+  width: 31.3%;
+}
+}
