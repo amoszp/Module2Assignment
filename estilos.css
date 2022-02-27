@@ -79,7 +79,11 @@ div span{
   padding: 40px;
     }
 
+.block{
 
+  overflow: hidden;
+
+}
 .col-xs-12{
   width: 98%;
   background-color: lightgrey;
